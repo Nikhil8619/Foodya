@@ -1,10 +1,40 @@
 # 🍽️ Foodya - A  React Project
 
-Foodya is a modern food ordering web app built as part of the **React** journey. It demonstrates the use of powerful tools like **React**, **Redux Toolkit**, **Parcel**, and **React Testing Library** to build scalable, maintainable, and performant web applications.
+Foodya is a modern food ordering web app built as part of the **React** journey. It demonstrates the use of powerful tools like **React**, **Redux Toolkit**, **Parcel**, and **React Testing Library(Jest)** to build scalable, maintainable, and performant web applications.
 
 ---
 
-<pre> ## 📁 Folder Structure ``` foodya/ ├── src/ │ ├── components/ │ │ ├── Header.jsx │ │ ├── Body.jsx │ │ ├── RestaurantCard.jsx │ │ ├── RestaurantContainer.jsx │ │ └── Footer.jsx │ ├── redux/ │ │ ├── store.js │ │ └── cartSlice.js │ ├── App.jsx │ └── index.js ├── __tests__/ │ └── App.test.jsx ├── .babelrc ├── .parcelrc ├── jest.config.js ├── package.json └── README.md ``` </pre>
+## 📁 Folder Structure
+
+```
+
+foodya/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Body.jsx
+│   │   ├── RestaurantCard.jsx
+│   │   ├── RestaurantContainer.jsx
+│   │   ├── RestaurantCategory.jsx
+│   │   ├── RestaurantMenu.jsx
+│   │   ├── ItemList.jsx
+│   │   └── About.jsx
+│   ├── utils/
+│   │   ├── appStore.js
+│   │   ├── cartSlice.js
+│   │   ├── constant.js
+│   │   ├── useOnlineStatus.js
+│   │   └── useRestaurantMenu.js
+│   ├── App.jsx
+│   └── index.js
+├── .babelrc
+├── .parcelrc
+├── jest.config.js
+├── package.json
+└── README.md
+```
+
+
 
 ## 🚀 Tech Stack & Tooling
 
