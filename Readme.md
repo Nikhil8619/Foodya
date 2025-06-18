@@ -4,34 +4,7 @@ Foodya is a modern food ordering web app built as part of the **React** journey.
 
 ---
 
-## 📁 Folder Structure
-
-foodya/
-│
-├── src/
-│ ├── components/
-│ │ ├── Header.jsx
-│ │ ├── Body.jsx
-│ │ ├── RestaurantCard.jsx
-│ │ ├── RestaurantContainer.jsx
-│ │ └── Footer.jsx
-│ │
-│ ├── redux/
-│ │ ├── store.js
-│ │ └── cartSlice.js
-│ │
-│ ├── App.jsx
-│ └── index.js
-│
-├── tests/
-│ └── App.test.jsx
-│
-├── .babelrc
-├── .parcelrc
-├── jest.config.js
-├── package.json
-└── README.md
-
+<pre> ## 📁 Folder Structure ``` foodya/ ├── src/ │ ├── components/ │ │ ├── Header.jsx │ │ ├── Body.jsx │ │ ├── RestaurantCard.jsx │ │ ├── RestaurantContainer.jsx │ │ └── Footer.jsx │ ├── redux/ │ │ ├── store.js │ │ └── cartSlice.js │ ├── App.jsx │ └── index.js ├── __tests__/ │ └── App.test.jsx ├── .babelrc ├── .parcelrc ├── jest.config.js ├── package.json └── README.md ``` </pre>
 
 ## 🚀 Tech Stack & Tooling
 
@@ -55,7 +28,21 @@ foodya/
 
 ## 🧩 Component Structure
 
-<Header /> ├── Logo └── Nav Items <Body /> ├── Search └── <RestaurantContainer /> └── <RestaurantCard /> ├── Restaurant Image ├── Name, Star Rating ├── Cuisine, Delivery Time <Footer /> ├── Copyright ├── Links ├── Address └── Contact Info ```
+
+```
+<Header />
+├── Logo
+└── Nav Items
+
+<Body />
+├── Search
+└── <RestaurantContainer />
+    └── <RestaurantCard />
+        ├── Restaurant Image
+        ├── Name, Star Rating
+        └── Cuisine, Delivery Time
+
+```
 🔄 Import/Export in React
 ✅ Default Export/Import
 
